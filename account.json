@@ -8301,11 +8301,11 @@
   },
   "preferences": {
     "man": false,
-    "woman": false,
+    "woman": true,
     "swap": true,
     "couple": true
   },
-  "note": "نفرس سوم _ خانم \n#ضربدری.",
+  "note": null,
   "city": "بوشهر",
   "cityId": 70001,
   "phoneNumber": null,
@@ -8686,6 +8686,127 @@
     "coordinates": [
       59.593765516631976,
       36.296567081017834
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "64bdb247363db0c2b80cfeda"
+  },
+  "code": 9060,
+  "gender": "Male",
+  "verified": true,
+  "person": [
+    {
+      "firstName": "سعید",
+      "lastName": null,
+      "birthYear": 1372,
+      "telegramId": 827102589,
+      "proofVoice": {
+        "fileId": "AwACAgQAAxkBAAI_I2S9skXcAi_3IC-YXIOGqR3uCxhcAAL1FwADpPBRGGEMl2yCkTwvBA",
+        "fileUniqueId": "AgAD9RcAA6TwUQ",
+        "mimeType": "audio/ogg",
+        "contents": null
+      },
+      "phoneNumber": null,
+      "isMale": true
+    }
+  ],
+  "verifiedAt": {
+    "$date": "2023-07-24T05:49:15.976Z"
+  },
+  "createdAt": {
+    "$date": "2023-07-23T23:05:43.431Z"
+  },
+  "preferences": {
+    "man": false,
+    "woman": true,
+    "swap": false,
+    "couple": true
+  },
+  "note": "#نفر_سوم_خانم.",
+  "city": "اردبیل",
+  "cityId": 30001,
+  "phoneNumber": null,
+  "username": null,
+  "password": null,
+  "proofVoice": {
+    "fileId": "AwACAgQAAxkBAAI_I2S9skXcAi_3IC-YXIOGqR3uCxhcAAL1FwADpPBRGGEMl2yCkTwvBA",
+    "fileUniqueId": "AgAD9RcAA6TwUQ",
+    "mimeType": "audio/ogg",
+    "contents": null
+  },
+  "introVoice": null,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      48.30419102838401,
+      38.257596894839864
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "64be6866837124f4d61e5755"
+  },
+  "code": 3262,
+  "gender": "Couple",
+  "verified": true,
+  "person": [
+    {
+      "firstName": "ساحل",
+      "lastName": null,
+      "birthYear": 1377,
+      "telegramId": 6210466244,
+      "proofVoice": {
+        "fileId": "AwACAgQAAxkBAAI_SmS-aGP24RVHj1Wmr8Zotdwxc8b6AAIKEQACp1HxUWnte25WvyXdLwQ",
+        "fileUniqueId": "AgADChEAAqdR8VE",
+        "mimeType": "audio/ogg",
+        "contents": null
+      },
+      "phoneNumber": null,
+      "isMale": false
+    },
+    {
+      "firstName": "سعید",
+      "lastName": null,
+      "birthYear": 1372,
+      "telegramId": null,
+      "proofVoice": null,
+      "phoneNumber": null,
+      "isMale": true
+    }
+  ],
+  "verifiedAt": {
+    "$date": "2023-07-24T12:03:08.880Z"
+  },
+  "createdAt": {
+    "$date": "2023-07-24T12:02:46.144Z"
+  },
+  "preferences": {
+    "man": false,
+    "woman": true,
+    "swap": false,
+    "couple": false
+  },
+  "note": null,
+  "city": "اردبیل",
+  "cityId": 30001,
+  "phoneNumber": null,
+  "username": null,
+  "password": null,
+  "proofVoice": {
+    "fileId": "AwACAgQAAxkBAAI_SmS-aGP24RVHj1Wmr8Zotdwxc8b6AAIKEQACp1HxUWnte25WvyXdLwQ",
+    "fileUniqueId": "AgADChEAAqdR8VE",
+    "mimeType": "audio/ogg",
+    "contents": null
+  },
+  "introVoice": null,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      48.30419102838401,
+      38.257596894839864
     ]
   }
 }]
