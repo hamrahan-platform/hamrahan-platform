@@ -6166,6 +6166,7 @@
       "lastName": null,
       "birthYear": 1368,
       "isMale": true,
+      "telegramId": 5571451852,
       "proofVoice": {
         "fileId": "AwACAgQAAxkBAAI1U2SftMGjVvIVG2C6PkQVOq_GQMsDAAL6DQACe6ABUar4yw7WoHYdLwQ",
         "fileUniqueId": "AgAD-g0AAnugAVE",
@@ -6225,6 +6226,7 @@
       "lastName": null,
       "birthYear": 1365,
       "isMale": true,
+      "telegramId": 146614826,
       "proofVoice": {
         "fileId": "AwACAgQAAxkBAAI1f2Sgn4Dk5isuXFHBvrFmOFBi2sSHAAKmEAACnwwIUZH-a8GvZoGgLwQ",
         "fileUniqueId": "AgADphAAAp8MCFE",
@@ -6267,59 +6269,6 @@
 },
 {
   "_id": {
-    "$oid": "64a25b6c1675b83153066c53"
-  },
-  "code": 6028,
-  "gender": "Male",
-  "verified": true,
-  "person": [
-    {
-      "firstName": "هنگامه",
-      "lastName": null,
-      "birthYear": 1363,
-      "isMale": false,
-      "proofVoice": {
-        "fileId": "AwACAgQAAxkBAAI12mSiW2poXyfxprL8dBr-8CWvh7zjAALyEQAC_7QRUctsrtXAVm5wLwQ",
-        "fileUniqueId": "AgAD8hEAAv-0EVE",
-        "mimeType": "audio/ogg",
-        "contents": null
-      }
-    }
-  ],
-  "verifiedAt": {
-    "$date": "2023-07-03T05:26:55.112Z"
-  },
-  "createdAt": {
-    "$date": "2023-07-03T05:23:56.359Z"
-  },
-  "preferences": {
-    "man": false,
-    "woman": false,
-    "swap": false,
-    "couple": false
-  },
-  "note": "آقای زنانه پوش هستم. فقط زوج بیاد. زوج شوهر زن همه چیز.",
-  "city": "رزن",
-  "cityId": 300008,
-  "phoneNumber": null,
-  "username": null,
-  "password": null,
-  "proofVoice": {
-    "fileId": "AwACAgQAAxkBAAI12mSiW2poXyfxprL8dBr-8CWvh7zjAALyEQAC_7QRUctsrtXAVm5wLwQ",
-    "fileUniqueId": "AgAD8hEAAv-0EVE",
-    "mimeType": "audio/ogg"
-  },
-  "introVoice": null,
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      49.03117335532769,
-      35.38268164276543
-    ]
-  }
-},
-{
-  "_id": {
     "$oid": "64a26ef91675b83153066c54"
   },
   "code": 8101,
@@ -6336,6 +6285,7 @@
       "firstName": "احمد",
       "lastName": null,
       "birthYear": 1362,
+      "telegramId": 5849221797,
       "isMale": true,
       "proofVoice": {
         "fileId": "AwACAgQAAxkBAAI2jWSibvfZ3WsVGuASWqiITEwjNlZAAAIqDwACAUUYUeaptjryXeTELwQ",
@@ -6373,165 +6323,6 @@
 },
 {
   "_id": {
-    "$oid": "64a277391675b83153066c56"
-  },
-  "code": 5068,
-  "gender": "Male",
-  "verified": true,
-  "person": [
-    {
-      "firstName": "علی",
-      "lastName": null,
-      "birthYear": 1370,
-      "isMale": true,
-      "proofVoice": {
-        "fileId": "AwACAgQAAxkBAAI2wWSidzgv3Y4S_fXEQ3N9wesJ3hFjAAKoEgAC--oRUYIf5NIfGew6LwQ",
-        "fileUniqueId": "AgADqBIAAvvqEVE",
-        "mimeType": "audio/ogg",
-        "contents": null
-      }
-    }
-  ],
-  "verifiedAt": {
-    "$date": "2023-07-03T07:24:18.580Z"
-  },
-  "createdAt": {
-    "$date": "2023-07-03T07:22:33.482Z"
-  },
-  "preferences": {
-    "man": false,
-    "woman": true,
-    "swap": false,
-    "couple": true
-  },
-  "note": null,
-  "city": "بجنورد",
-  "cityId": 120001,
-  "phoneNumber": null,
-  "username": null,
-  "password": null,
-  "proofVoice": {
-    "fileId": "AwACAgQAAxkBAAI2wWSidzgv3Y4S_fXEQ3N9wesJ3hFjAAKoEgAC--oRUYIf5NIfGew6LwQ",
-    "fileUniqueId": "AgADqBIAAvvqEVE",
-    "mimeType": "audio/ogg"
-  },
-  "introVoice": null,
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      57.33194720101599,
-      37.4764227768198
-    ]
-  }
-},
-{
-  "_id": {
-    "$oid": "64a277fd1675b83153066c57"
-  },
-  "code": 7256,
-  "gender": "Male",
-  "verified": true,
-  "person": [
-    {
-      "firstName": "مرتضی",
-      "lastName": null,
-      "birthYear": 1362,
-      "isMale": true,
-      "proofVoice": {
-        "fileId": "AwACAgQAAxkBAAI20WSid_3ZPNG8Dxd6D7DFvRnZzNrbAAIZEQACb8wZUaMCylDU81eHLwQ",
-        "fileUniqueId": "AgADGREAAm_MGVE",
-        "mimeType": "audio/ogg",
-        "contents": null
-      }
-    }
-  ],
-  "verifiedAt": {
-    "$date": "2023-07-03T07:26:12.840Z"
-  },
-  "createdAt": {
-    "$date": "2023-07-03T07:25:49.512Z"
-  },
-  "preferences": {
-    "man": false,
-    "woman": true,
-    "swap": false,
-    "couple": true
-  },
-  "note": "نفر سوم.",
-  "city": "شهریار",
-  "cityId": 80002,
-  "phoneNumber": null,
-  "username": null,
-  "password": null,
-  "proofVoice": {
-    "fileId": "AwACAgQAAxkBAAI20WSid_3ZPNG8Dxd6D7DFvRnZzNrbAAIZEQACb8wZUaMCylDU81eHLwQ",
-    "fileUniqueId": "AgADGREAAm_MGVE",
-    "mimeType": "audio/ogg"
-  },
-  "introVoice": null,
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      51.058376909753385,
-      35.65834312389355
-    ]
-  }
-},
-{
-  "_id": {
-    "$oid": "64a27d9d1675b83153066c58"
-  },
-  "code": 4395,
-  "gender": "Male",
-  "verified": true,
-  "person": [
-    {
-      "firstName": "علی",
-      "lastName": null,
-      "birthYear": 1372,
-      "isMale": true,
-      "proofVoice": {
-        "fileId": "AwACAgQAAxkBAAI3CWSifZsfYDBl44oXHafnOPpwy0xiAAL-FAACBC8QUbpqbd3pPpn4LwQ",
-        "fileUniqueId": "AgAD_hQAAgQvEFE",
-        "mimeType": "audio/ogg",
-        "contents": null
-      }
-    }
-  ],
-  "verifiedAt": {
-    "$date": "2023-07-03T08:22:56.017Z"
-  },
-  "createdAt": {
-    "$date": "2023-07-03T07:49:49.330Z"
-  },
-  "preferences": {
-    "man": false,
-    "woman": true,
-    "swap": false,
-    "couple": true
-  },
-  "note": null,
-  "city": "ماهشهر",
-  "cityId": 130004,
-  "phoneNumber": null,
-  "username": null,
-  "password": null,
-  "proofVoice": {
-    "fileId": "AwACAgQAAxkBAAI3CWSifZsfYDBl44oXHafnOPpwy0xiAAL-FAACBC8QUbpqbd3pPpn4LwQ",
-    "fileUniqueId": "AgAD_hQAAgQvEFE",
-    "mimeType": "audio/ogg"
-  },
-  "introVoice": null,
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      49.19871690801113,
-      30.55627330214051
-    ]
-  }
-},
-{
-  "_id": {
     "$oid": "64a2981f3e127f202ddb16a3"
   },
   "code": 6274,
@@ -6548,6 +6339,7 @@
       "firstName": "کاوه",
       "lastName": null,
       "birthYear": 1358,
+      "telegramId": 5324393327,
       "isMale": true,
       "proofVoice": {
         "fileId": "AwACAgQAAxkBAAI3mWSimB99ISJSxPhXJWNwWZYeT77xAAK9DQAC6PUZUWrHUmo_cUKbLwQ",
@@ -6591,112 +6383,6 @@
 },
 {
   "_id": {
-    "$oid": "64a2cfbe6f4c46b1109fc991"
-  },
-  "code": 6265,
-  "gender": "Male",
-  "verified": true,
-  "person": [
-    {
-      "firstName": "علی",
-      "lastName": null,
-      "birthYear": 1373,
-      "isMale": true,
-      "proofVoice": {
-        "fileId": "AwACAgQAAxkBAAI4C2Siz7xGitk4l6i6FeHA0a8MLrAfAALGDgACgs4QUUGf2ZM7jV6QLwQ",
-        "fileUniqueId": "AgADxg4AAoLOEFE",
-        "mimeType": "audio/ogg",
-        "contents": null
-      }
-    }
-  ],
-  "verifiedAt": {
-    "$date": "2023-07-03T13:40:48.915Z"
-  },
-  "createdAt": {
-    "$date": "2023-07-03T13:40:14.800Z"
-  },
-  "preferences": {
-    "man": false,
-    "woman": true,
-    "swap": false,
-    "couple": true
-  },
-  "note": null,
-  "city": "کرج",
-  "cityId": 50001,
-  "phoneNumber": null,
-  "username": null,
-  "password": null,
-  "proofVoice": {
-    "fileId": "AwACAgQAAxkBAAI4C2Siz7xGitk4l6i6FeHA0a8MLrAfAALGDgACgs4QUUGf2ZM7jV6QLwQ",
-    "fileUniqueId": "AgADxg4AAoLOEFE",
-    "mimeType": "audio/ogg"
-  },
-  "introVoice": null,
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      50.976473316373976,
-      35.844547432985216
-    ]
-  }
-},
-{
-  "_id": {
-    "$oid": "64a3cd0e6f4c46b1109fc994"
-  },
-  "code": 5565,
-  "gender": "Male",
-  "verified": true,
-  "person": [
-    {
-      "firstName": "ماهان",
-      "lastName": null,
-      "birthYear": 1385,
-      "isMale": true,
-      "proofVoice": {
-        "fileId": "AwACAgQAAxkBAAI4YGSjzQ4MeKPOEH4DRh-ooFTiuugRAAIWEAAC_MAgUeOSXutgW7CrLwQ",
-        "fileUniqueId": "AgADFhAAAvzAIFE",
-        "mimeType": "audio/ogg",
-        "contents": null
-      }
-    }
-  ],
-  "verifiedAt": {
-    "$date": "2023-07-04T07:42:06.490Z"
-  },
-  "createdAt": {
-    "$date": "2023-07-04T07:41:02.029Z"
-  },
-  "preferences": {
-    "man": false,
-    "woman": true,
-    "swap": false,
-    "couple": true
-  },
-  "note": null,
-  "city": "سنندج",
-  "cityId": 200001,
-  "phoneNumber": null,
-  "username": null,
-  "password": null,
-  "proofVoice": {
-    "fileId": "AwACAgQAAxkBAAI4YGSjzQ4MeKPOEH4DRh-ooFTiuugRAAIWEAAC_MAgUeOSXutgW7CrLwQ",
-    "fileUniqueId": "AgADFhAAAvzAIFE",
-    "mimeType": "audio/ogg"
-  },
-  "introVoice": null,
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      47.00274911279766,
-      35.31006922738084
-    ]
-  }
-},
-{
-  "_id": {
     "$oid": "64a3cd0e6f4c46b1109fc995"
   },
   "code": 5565,
@@ -6714,6 +6400,7 @@
       "lastName": null,
       "birthYear": 1358,
       "isMale": true,
+      "telegramId": 5664299330,
       "proofVoice": null
     }
   ],
@@ -6742,59 +6429,6 @@
     "coordinates": [
       51.41,
       35.68
-    ]
-  }
-},
-{
-  "_id": {
-    "$oid": "64a50a9f5c3eec9b4fe7a000"
-  },
-  "code": 3786,
-  "gender": "Male",
-  "verified": true,
-  "person": [
-    {
-      "firstName": "علی",
-      "lastName": null,
-      "birthYear": 1366,
-      "isMale": true,
-      "proofVoice": {
-        "fileId": "AwACAgQAAxkBAAI4uWSlCp1PSsYKBE24HSe5-YeusZ3lAAKMDwAC-GwpUZUVzfxt5dIdLwQ",
-        "fileUniqueId": "AgADjA8AAvhsKVE",
-        "mimeType": "audio/ogg",
-        "contents": null
-      }
-    }
-  ],
-  "verifiedAt": {
-    "$date": "2023-07-05T06:17:15.801Z"
-  },
-  "createdAt": {
-    "$date": "2023-07-05T06:15:59.170Z"
-  },
-  "preferences": {
-    "man": false,
-    "woman": true,
-    "swap": false,
-    "couple": true
-  },
-  "note": null,
-  "city": "مشهد",
-  "cityId": 110001,
-  "phoneNumber": null,
-  "username": null,
-  "password": null,
-  "proofVoice": {
-    "fileId": "AwACAgQAAxkBAAI4uWSlCp1PSsYKBE24HSe5-YeusZ3lAAKMDwAC-GwpUZUVzfxt5dIdLwQ",
-    "fileUniqueId": "AgADjA8AAvhsKVE",
-    "mimeType": "audio/ogg"
-  },
-  "introVoice": null,
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      59.593765516631976,
-      36.296567081017834
     ]
   }
 },
