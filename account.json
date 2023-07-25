@@ -8540,11 +8540,11 @@
   },
   "preferences": {
     "man": false,
-    "woman": false,
-    "swap": false,
+    "woman": true,
+    "swap": true,
     "couple": false
   },
-  "note": "لز و ضرب.",
+  "note": null,
   "city": "ساوه",
   "cityId": 280002,
   "phoneNumber": null,
@@ -8662,10 +8662,10 @@
   "preferences": {
     "man": false,
     "woman": false,
-    "swap": false,
+    "swap": true,
     "couple": false
   },
-  "note": "#ضربدری.",
+  "note": null,
   "city": "تربت جام",
   "cityId": 110007,
   "phoneNumber": null,
