@@ -24,42 +24,121 @@
     <title>همراهان | تلگرام</title>
     
     <!-- {pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />} -->
-  <link rel="stylesheet" href="/_astro/_...slug_.ec47500e.css" /><script type="module" src="/_astro/hoisted.fe241faf.js"></script></head>
+  <link rel="stylesheet" href="/_astro/_...slug_.d14f7626.css" /><script type="module" src="/_astro/hoisted.fe241faf.js"></script></head>
   <body class="bg-slate-100 dark:bg-slate-900 flex flex-col min-h-screen">
     
   <div class="container mx-auto mt-10 px-4">
-    <div class="px-4 py-3">
-      <select id="gender" class="rounded-full">
-        <option value="0" selected disabled>جنسیت (انتخاب کنید)</option>
-        <option value="couple">زوج هستیم</option>
-        <option value="female">خانم مجرد هستم</option>
-      </select>
+    <div class="mt-8 max-w-md">
+      <div class="grid grid-cols-1 gap-6">
+        <label class="block">
+          <span class="text-gray-700">Full name</span>
+          <input type="text" class="mt-1 block w-full" placeholder="">
+        </label>
+        <label class="block">
+          <span class="text-gray-700">Email address</span>
+          <input type="email" class="mt-1 block w-full" placeholder="john@example.com">
+        </label>
+        <label class="block">
+          <span class="text-gray-700">When is your event?</span>
+          <input type="date" class="mt-1 block w-full">
+        </label>
+        <label class="block">
+          <span class="text-gray-700">What type of event is it?</span>
+          <select class="block w-full mt-1">
+            <option>Corporate event</option>
+            <option>Wedding</option>
+            <option>Birthday</option>
+            <option>Other</option>
+          </select>
+        </label>
+        <label class="block">
+          <span class="text-gray-700">Additional details</span>
+          <textarea class="mt-1 block w-full" rows="3"></textarea>
+        </label>
+        <div class="block">
+          <div class="mt-2">
+            <div>
+              <label class="inline-flex items-center">
+                <input type="checkbox" checked="">
+                <span class="ml-2">Email me news and special offers</span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <label class="block">
+      <div class="mt-2">
+        <span class="text-gray-100">جنسیت خود را انتخاب کنید:</span>
+        <select id="gender" class="block w-full mt-1">
+          <option value="0" selected disabled>جنسیت (انتخاب کنید)</option>
+          <option value="couple">زوج هستیم</option>
+          <option value="female">خانم مجرد هستم</option>
+        </select>
+      </div>
+    </label>
 
-    <div class="px-4 py-3">
-      <select id="province" class="rounded-full">
-        <option value="0" selected disabled>استان (انتخاب کنید)</option>
-        <option value="1">آذربایجان شرقی</option><option value="2">آذربایجان غربی</option><option value="3">اردبیل</option><option value="4">اصفهان</option><option value="5">البرز</option><option value="6">ایلام</option><option value="7">بوشهر</option><option value="8">تهران</option><option value="9">چهارمحال و بختیاری</option><option value="10">خراسان جنوبی</option><option value="11">خراسان رضوی</option><option value="12">خراسان شمالی</option><option value="13">خوزستان</option><option value="14">زنجان</option><option value="15">سمنان</option><option value="16">سیستان و بلوچستان</option><option value="17">فارس</option><option value="18">قزوین</option><option value="19">قم</option><option value="20">کردستان</option><option value="21">کرمان</option><option value="22">کرمانشاه</option><option value="23">کهگیلویه و بویراحمد</option><option value="24">گلستان</option><option value="25">گیلان</option><option value="26">لرستان</option><option value="27">مازندران</option><option value="28">مرکزی</option><option value="29">هرمزگان</option><option value="30">همدان</option><option value="31">یزد</option>
-      </select>
-    </div>
-    <div class="px-4 py-3">
-      <select id="city" class="rounded-full">
-        <option value="0" selected disabled>استان (انتخاب کنید)</option>
-        <option value="1">آذربایجان شرقی</option><option value="2">آذربایجان غربی</option><option value="3">اردبیل</option><option value="4">اصفهان</option><option value="5">البرز</option><option value="6">ایلام</option><option value="7">بوشهر</option><option value="8">تهران</option><option value="9">چهارمحال و بختیاری</option><option value="10">خراسان جنوبی</option><option value="11">خراسان رضوی</option><option value="12">خراسان شمالی</option><option value="13">خوزستان</option><option value="14">زنجان</option><option value="15">سمنان</option><option value="16">سیستان و بلوچستان</option><option value="17">فارس</option><option value="18">قزوین</option><option value="19">قم</option><option value="20">کردستان</option><option value="21">کرمان</option><option value="22">کرمانشاه</option><option value="23">کهگیلویه و بویراحمد</option><option value="24">گلستان</option><option value="25">گیلان</option><option value="26">لرستان</option><option value="27">مازندران</option><option value="28">مرکزی</option><option value="29">هرمزگان</option><option value="30">همدان</option><option value="31">یزد</option>
-      </select>
-    </div>
+    <label class="block">
+      <div class="mt-2">
+        <span class="text-gray-100">استان محل زندگی خود را انتخاب کنید:</span>
+        <select id="province" class="block w-full mt-1">
+          <option value="0" selected disabled>استان (انتخاب کنید)</option>
+          <option value="1">آذربایجان شرقی</option><option value="2">آذربایجان غربی</option><option value="3">اردبیل</option><option value="4">اصفهان</option><option value="5">البرز</option><option value="6">ایلام</option><option value="7">بوشهر</option><option value="8">تهران</option><option value="9">چهارمحال و بختیاری</option><option value="10">خراسان جنوبی</option><option value="11">خراسان رضوی</option><option value="12">خراسان شمالی</option><option value="13">خوزستان</option><option value="14">زنجان</option><option value="15">سمنان</option><option value="16">سیستان و بلوچستان</option><option value="17">فارس</option><option value="18">قزوین</option><option value="19">قم</option><option value="20">کردستان</option><option value="21">کرمان</option><option value="22">کرمانشاه</option><option value="23">کهگیلویه و بویراحمد</option><option value="24">گلستان</option><option value="25">گیلان</option><option value="26">لرستان</option><option value="27">مازندران</option><option value="28">مرکزی</option><option value="29">هرمزگان</option><option value="30">همدان</option><option value="31">یزد</option>
+        </select>
+      </div>
+    </label>
+
+    <label class="block">
+      <div class="mt-2">
+        <span class="text-gray-100">شهر محل زندگی خود را انتخاب کنید:</span>
+        <select id="city" class="block w-full mt-1">
+          <option value="0" selected disabled>شهر (انتخاب کنید)</option>
+          <option value="1">آذربایجان شرقی</option><option value="2">آذربایجان غربی</option><option value="3">اردبیل</option><option value="4">اصفهان</option><option value="5">البرز</option><option value="6">ایلام</option><option value="7">بوشهر</option><option value="8">تهران</option><option value="9">چهارمحال و بختیاری</option><option value="10">خراسان جنوبی</option><option value="11">خراسان رضوی</option><option value="12">خراسان شمالی</option><option value="13">خوزستان</option><option value="14">زنجان</option><option value="15">سمنان</option><option value="16">سیستان و بلوچستان</option><option value="17">فارس</option><option value="18">قزوین</option><option value="19">قم</option><option value="20">کردستان</option><option value="21">کرمان</option><option value="22">کرمانشاه</option><option value="23">کهگیلویه و بویراحمد</option><option value="24">گلستان</option><option value="25">گیلان</option><option value="26">لرستان</option><option value="27">مازندران</option><option value="28">مرکزی</option><option value="29">هرمزگان</option><option value="30">همدان</option><option value="31">یزد</option>
+        </select>
+      </div>
+    </label>
+
     <div class="px-4 py-3">
       <input type="text" title="نام خانم" class="rounded-full w-full">
     </div>
 
-    <div class="px-4 py-3">
-      <input type="checkbox" class="text-pink-500">
+    <div class="block text-gray-100">
+      <div>
+        <div class="mt-2">
+          <label class="inline-flex items-center">
+            <input type="checkbox" checked="">
+            <span class="ml-2">&nbsp;دنبال زوج موازی هستیم.</span>
+          </label>
+        </div>
+        <div class="mt-2">
+          <label class="inline-flex items-center">
+            <input type="checkbox" checked="">
+            <span class="ml-2">&nbsp;دنبال زوج ضربدری هستیم.</span>
+          </label>
+        </div>
+        <div class="mt-2">
+          <label class="inline-flex items-center">
+            <input type="checkbox" checked="">
+            <span class="ml-2">&nbsp;دنبال خانم مجرد هستیم.</span>
+          </label>
+        </div>
+        <div class="mt-2">
+          <label class="inline-flex items-center">
+            <input type="checkbox" checked="">
+            <span class="ml-2">&nbsp;دنبال آقای مجرد هستیم.</span>
+          </label>
+        </div>
+      </div>
     </div>
 
-    <div class="px-4 py-3">
-      <button id="btnStep1" type="button" class="bg-blue text-pink-500">ادامه</button>
+    <div class="block mt-2">
+      <button id="btnStep1" class="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 w-full mt-1">
+        ادامه
+      </button>
     </div>
   </div>
+
+  
 
   
 </body></html>
