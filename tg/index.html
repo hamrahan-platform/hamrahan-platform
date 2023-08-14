@@ -24,105 +24,42 @@
     <title>همراهان | تلگرام</title>
     
     <!-- {pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />} -->
-  <link rel="stylesheet" href="/_astro/_...slug_.8d9552b4.css" /><script type="module" src="/_astro/hoisted.fce39e76.js"></script></head>
+  <link rel="stylesheet" href="/_astro/_...slug_.ec47500e.css" /><script type="module" src="/_astro/hoisted.fe241faf.js"></script></head>
   <body class="bg-slate-100 dark:bg-slate-900 flex flex-col min-h-screen">
     
-  <div class="pt-1 pb-1" style="background: rgb(255,155,112); background: linear-gradient(45deg,  rgba(219,41,116,1)  0%, rgba(249,142,61,1) 100%);">
-  <nav class="w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
-    <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
-      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-        <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white" href="/">همراهان | فانتزی خانوادگی</a>
-        <button id="menu-btn" class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-10 w-10"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg></button>
-      </div>
-      <div class="lg:flex flex-grow items-center hidden" id="menu">
-        <ul class="flex flex-col lg:flex-row list-none lg:mr-auto">
-          <li>
-        <a href="/city/تهران-80001/" class="px-3 py-4 flex items-center text-xs uppercase font-bold text-white hover:underline lg:py-2">
-          <i class="fas fa-plane"></i>
-          <span class="mr-1"> تهران</span>
-        </a>
-      </li><li>
-        <a href="/city/مشهد-110001/" class="px-3 py-4 flex items-center text-xs uppercase font-bold text-white hover:underline lg:py-2">
-          <i class="fas fa-plane"></i>
-          <span class="mr-1"> مشهد</span>
-        </a>
-      </li><li>
-        <a href="/city/کرج-50001/" class="px-3 py-4 flex items-center text-xs uppercase font-bold text-white hover:underline lg:py-2">
-          <i class="fas fa-plane"></i>
-          <span class="mr-1"> کرج</span>
-        </a>
-      </li><li>
-        <a href="/city/همدان-300001/" class="px-3 py-4 flex items-center text-xs uppercase font-bold text-white hover:underline lg:py-2">
-          <i class="fas fa-plane"></i>
-          <span class="mr-1"> همدان</span>
-        </a>
-      </li><li>
-        <a href="/city/کاشان-40002/" class="px-3 py-4 flex items-center text-xs uppercase font-bold text-white hover:underline lg:py-2">
-          <i class="fas fa-plane"></i>
-          <span class="mr-1"> کاشان</span>
-        </a>
-      </li>
-          <li>
-            <a href="/lesbian/" class="px-3 py-4 flex items-center text-xs uppercase font-bold text-white hover:underline lg:py-2">
-              <i class="fas fa-plane"></i><span class="mr-1">لزبین</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</div>
   <div class="container mx-auto mt-10 px-4">
-    <input type="email" class="form-input px-4 py-3 rounded-full">
-
-    <select class="form-select px-4 py-3 rounded-full">
-      <option disabled>جنسیت</option>
-      <option value="couple">زوج هستیم</option>
-      <option value="female">خانم مجرد هستم</option>
-    </select>
-
-    <input type="checkbox" class="form-checkbox rounded text-pink-500">
-    <div id="content"></div>
-  </div>
-
-  <div class="footer mt-32 pb-24" style="background: rgb(255,155,112); background: linear-gradient(45deg,  rgba(219,41,116,1)  0%, rgba(249,142,61,1) 100%);">
-  <div class="container mx-auto px-6 text-white pt-12 flex justify-between flex-col sm:flex-row">
-    <div class="mt-10 sm:mt-0">
-      <h3 class="text-xl font-bold">شهر ها</h3>
-      <ul>
-        <li class="mt-6">Last Minute Offers</li>
-        <li class="mt-3">All Inclusive Offers</li>
-        <li class="mt-3">Road Trips</li>
-        <li class="mt-3">Weekend Trips</li>
-      </ul>
+    <div class="px-4 py-3">
+      <select id="gender" class="rounded-full">
+        <option value="0" selected disabled>جنسیت (انتخاب کنید)</option>
+        <option value="couple">زوج هستیم</option>
+        <option value="female">خانم مجرد هستم</option>
+      </select>
     </div>
-    <div class="mt-10 sm:mt-0">
-      <h3 class="text-xl font-bold">About us</h3>
-      <ul>
-        <li class="mt-6">Who we are</li>
-        <li class="mt-3">Testimonials</li>
-        <li class="mt-3">Contact</li>
-        <li class="mt-3">Jobs</li>
-      </ul>
+
+    <div class="px-4 py-3">
+      <select id="province" class="rounded-full">
+        <option value="0" selected disabled>استان (انتخاب کنید)</option>
+        <option value="1">آذربایجان شرقی</option><option value="2">آذربایجان غربی</option><option value="3">اردبیل</option><option value="4">اصفهان</option><option value="5">البرز</option><option value="6">ایلام</option><option value="7">بوشهر</option><option value="8">تهران</option><option value="9">چهارمحال و بختیاری</option><option value="10">خراسان جنوبی</option><option value="11">خراسان رضوی</option><option value="12">خراسان شمالی</option><option value="13">خوزستان</option><option value="14">زنجان</option><option value="15">سمنان</option><option value="16">سیستان و بلوچستان</option><option value="17">فارس</option><option value="18">قزوین</option><option value="19">قم</option><option value="20">کردستان</option><option value="21">کرمان</option><option value="22">کرمانشاه</option><option value="23">کهگیلویه و بویراحمد</option><option value="24">گلستان</option><option value="25">گیلان</option><option value="26">لرستان</option><option value="27">مازندران</option><option value="28">مرکزی</option><option value="29">هرمزگان</option><option value="30">همدان</option><option value="31">یزد</option>
+      </select>
     </div>
-    <div class="mt-10 sm:mt-0">
-      <h3 class="text-xl font-bold">شبکه های اجتماعی</h3>
-      <ul>
-        <li class="mt-6">تلگرام</li>
-        <li class="mt-3">اینستاگرام</li>
-        <li class="mt-3">Instagram</li>
-        <li class="mt-3">Pinterest</li>
-      </ul>
+    <div class="px-4 py-3">
+      <select id="city" class="rounded-full">
+        <option value="0" selected disabled>استان (انتخاب کنید)</option>
+        <option value="1">آذربایجان شرقی</option><option value="2">آذربایجان غربی</option><option value="3">اردبیل</option><option value="4">اصفهان</option><option value="5">البرز</option><option value="6">ایلام</option><option value="7">بوشهر</option><option value="8">تهران</option><option value="9">چهارمحال و بختیاری</option><option value="10">خراسان جنوبی</option><option value="11">خراسان رضوی</option><option value="12">خراسان شمالی</option><option value="13">خوزستان</option><option value="14">زنجان</option><option value="15">سمنان</option><option value="16">سیستان و بلوچستان</option><option value="17">فارس</option><option value="18">قزوین</option><option value="19">قم</option><option value="20">کردستان</option><option value="21">کرمان</option><option value="22">کرمانشاه</option><option value="23">کهگیلویه و بویراحمد</option><option value="24">گلستان</option><option value="25">گیلان</option><option value="26">لرستان</option><option value="27">مازندران</option><option value="28">مرکزی</option><option value="29">هرمزگان</option><option value="30">همدان</option><option value="31">یزد</option>
+      </select>
     </div>
-    <div class="mt-10 sm:mt-0">
-      <h3 class="text-xl font-bold">حقوقی</h3>
-      <ul>
-        <li class="mt-6">Impressum</li>
-        <li class="mt-3">سیاست محرمانگی</li>
-      </ul>
+    <div class="px-4 py-3">
+      <input type="text" title="نام خانم" class="rounded-full w-full">
+    </div>
+
+    <div class="px-4 py-3">
+      <input type="checkbox" class="text-pink-500">
+    </div>
+
+    <div class="px-4 py-3">
+      <button id="btnStep1" type="button" class="bg-blue text-pink-500">ادامه</button>
     </div>
   </div>
-</div>
 
   
 </body></html>

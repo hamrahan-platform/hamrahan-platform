@@ -1,0 +1,1 @@
+import"./hoisted.8b9105ea.js";const o=document.getElementById("btnStep1"),n=document.getElementById("province"),t=document.getElementById("city"),c=document.getElementById("gender");function d(e){console.dir(e),t.value="0"}function i(e){console.dir(n.value),console.dir(t.value),console.dir(c.value)}n?.addEventListener("change",d);o?.addEventListener("click",i);
