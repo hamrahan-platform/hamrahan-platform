@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hamrahan.app/sitemap-index.xml
