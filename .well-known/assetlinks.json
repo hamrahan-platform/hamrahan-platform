@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "app.hamrahan.app",
+    "sha256_cert_fingerprints":
+    ["89:FF:74:5B:C3:7F:10:70:7E:34:D0:24:B3:E1:18:3B:3A:B1:C4:E3:5B:BA:B1:09:9E:EA:FF:88:98:C9:7E:22"]
+  }
+}]
