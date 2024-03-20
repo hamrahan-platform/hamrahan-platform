@@ -1,0 +1,1 @@
+import"./hoisted.BhChhb8F.js";const e=new URLSearchParams(window.location.search),n=Object.fromEntries(e.entries());(async()=>{const a=await(await fetch("//app.hamrahan.app/api/v1/telegram/verify",{method:"POST",headers:{Accept:"application/json","Content-Type":"application/json"},body:JSON.stringify(n)})).json();a.ok&&(window.location.href=a.redirect)})();
