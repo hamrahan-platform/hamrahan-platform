@@ -1,0 +1,1 @@
+import"./hoisted.BhChhb8F.js";const n=new URLSearchParams(window.location.search),o=Object.fromEntries(n.entries()),e=o.q;(async()=>{const a=await(await fetch("//app.hamrahan.app/api/v1/account/me",{method:"POST",headers:{Accept:"application/json","Content-Type":"application/json",Authorization:"Bearer "+e}})).json();console.log(a)})();
